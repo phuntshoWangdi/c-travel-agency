@@ -3,6 +3,14 @@ export interface IMenuItem {
     url: string;
 }
 
+export interface ICarouselItem{
+    id: number;
+    title: string;
+    description: string;
+    image: string,
+    color: string,
+}
+
 export interface IBenefit {
     title: string;
     description: string;
@@ -20,6 +28,20 @@ export interface IPricing {
     name: string;
     price: number | string;
     features: string[];
+}
+
+export interface ITourPackageType{
+    title:string;
+    description: string;
+    tourPackages: ITourPackage[];
+}
+
+export interface ITourPackage{
+    imageSrc: string;
+    title: string;
+    eventDuration: string;
+    description: string;
+    itinearyTextFile: string;
 }
 
 export interface IFAQ {

@@ -1,3 +1,4 @@
+"use client"
 import SectionTitle from "./SectionTitle";
 
 interface Props {
@@ -12,7 +13,7 @@ const Section: React.FC<React.PropsWithChildren<Props>> = ({ id, title, descript
             <SectionTitle>
                 <h2 className="text-center mb-4">{title}</h2>
             </SectionTitle>
-            <p className="mb-12 text-center">{description}</p>
+            <p className="mb-12 text-center md:pl-28 md:pr-28">{description}</p>
             {children}
         </section>
     )

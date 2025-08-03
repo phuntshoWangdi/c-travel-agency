@@ -4,11 +4,11 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
-import { FaFingerprint } from 'react-icons/fa';
 
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
+import Image from 'next/image';
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,27 +20,32 @@ const Header: React.FC = () => {
     return (
         <header className="bg-transparent fixed top-0 left-0 right-0 md:absolute z-50 mx-auto w-full">
             <Container className="!px-0">
-                <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
+                <nav className="shadow-md md:shadow-none bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <FaFingerprint className="text-foreground min-w-fit w-7 h-7" />
-                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
+                        <Image
+                            src={siteDetails.siteLogo}
+                            alt="Himalayan Horizons Adventures"
+                            width={100}
+                            height={0}
+                        />
+                        {/* <span className="manrope text-xl font-semibold text-foreground cursor-pointer text-white">
                             {siteDetails.siteName}
-                        </span>
+                        </span> */}
                     </Link>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex space-x-6">
+                    <ul className="hidden md:flex space-x-6 pr-28">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground hover:text-foreground-accent transition-colors">
+                                <Link href={item.url} className="text-foreground text-hover-primary transition-colors text-white">
                                     {item.text}
                                 </Link>
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
-                                Download
+                            <Link href="#cta" className="text-black bg-primary bg-white hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                                Contact us
                             </Link>
                         </li>
                     </ul>
@@ -84,11 +89,6 @@ const Header: React.FC = () => {
                                 </Link>
                             </li>
                         ))}
-                        <li>
-                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
-                                Get Started
-                            </Link>
-                        </li>
                     </ul>
                 </div>
             </Transition>

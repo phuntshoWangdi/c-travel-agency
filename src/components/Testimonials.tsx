@@ -4,12 +4,12 @@ import { testimonials } from '@/data/testimonials';
 
 const Testimonials: React.FC = () => {
     return (
-        <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-3 lg:max-w-full">
+        <div
+            className={`grid gap-14 max-w-lg w-full mx-auto lg:gap-8 ${testimonials.length === 1 ? 'justify-center' : 'lg:grid-cols-3 lg:max-w-full'
+                }`}
+        >
             {testimonials.map((testimonial, index) => (
-                <div
-                    key={index}
-                    className=""
-                >
+                <div key={index}>
                     <div className="flex items-center mb-4 w-full justify-center lg:justify-start">
                         <Image
                             src={testimonial.avatar}
@@ -23,10 +23,13 @@ const Testimonials: React.FC = () => {
                             <p className="text-sm text-foreground-accent">{testimonial.role}</p>
                         </div>
                     </div>
-                    <p className="text-foreground-accent text-center lg:text-left">&quot;{testimonial.message}&quot;</p>
+                    <p className="text-foreground-accent text-center lg:text-left">
+                        &quot;{testimonial.message}&quot;
+                    </p>
                 </div>
             ))}
         </div>
+
     );
 };
 
