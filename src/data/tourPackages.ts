@@ -182,7 +182,7 @@ export const specialTours: ITourPackage[] = [
         itinearyTextFile: ""
     },
     {
-        imageSrc: "",
+        imageSrc: "/pictures/cycling.jpeg",
         title: "Cycling",
         eventDuration: "",
         description: "Our Cycling Tour in Bhutan offers a unique way to explore the country’s landscapes, culture, and peaceful way of life. Ride through charming valleys, remote villages, and over scenic mountain passes, all while soaking in breathtaking views of the Himalayas. This tour combines physical challenge with cultural immersion for a truly unforgettable journey.",
@@ -196,14 +196,14 @@ export const specialTours: ITourPackage[] = [
         itinearyTextFile: ""
     },
     {
-        imageSrc: "",
+        imageSrc: "/pictures/Events.jpg",
         title: "Events Touring",
         eventDuration: "-",
         description: "Plan your special events in the beautiful setting of Bhutan. Our Event Tour Packages are tailored for meetings, family gatherings, reunions, weddings, and other private celebrations. From venue arrangements to logistics, travel, and cultural experiences, we handle every detail, so you can focus on creating memories.",
         itinearyTextFile: ""
     },
     {
-        imageSrc: "",
+        imageSrc: "/pictures/Airport view.jpg",
         title: "Photography Touring",
         eventDuration: "-",
         description: "Discover Bhutan through the lens with our curated Photography Tour, guided by Pema Dorji, a renowned Bhutanese photographer with over a decade of experience. Highly sought after by international travelers, Pema is known for his deep understanding of Bhutan’s landscapes, culture, and light, ensuring you capture truly breathtaking shots.",
