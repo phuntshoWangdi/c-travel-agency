@@ -13,8 +13,8 @@ export const menuItems: IMenuItem[] = [
         text: "FAQ",
         url: "#faq"
     },
-    {
-        text: "Blog",
-        url: "#blog"
-    }
+    // {
+    //     text: "Blog",
+    //     url: "#blog"
+    // }
 ];
