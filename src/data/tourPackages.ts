@@ -144,28 +144,28 @@ export const trekkingTours: ITourPackage[]=[
 
 export const bikingTours: ITourPackage[] = [
     {
-        imageSrc: "/pictures/Bike and barshong 2.jpg",
+        imageSrc: "/pictures/Bike_and_barshong_2.jpg",
         title: "Moto Wonderer",
         eventDuration: "8 Days/ 7 Nights ",
         description: "Embark on an unforgettable journey with the Moto Wonderer Biking Tour Package, designed for riders who seek adventure, scenic landscapes, and the thrill of the open road. Whether you're navigating mountain passes or exploring hidden valleys, this tour offers an immersive experience for biking enthusiasts.",
         itinearyTextFile: "MotoWonderer"
     },
     {
-        imageSrc: "/pictures/Biking 1.jpg",
+        imageSrc: "/pictures/Biking_1.jpg",
         title: "Moto Quest",
         eventDuration: "10 Days/ 9 Nights",
         description: "Discover the spirit of adventure with our Moto Quest Tour package. Ride through breathtaking Himalayan landscapes, ancient monasteries, lush valleys, and winding mountain passes. This tour is crafted for passionate riders seeking a perfect blend of thrill, culture, and natural beauty.Join us on two wheels and experience Bhutan like never before.",
         itinearyTextFile: "MotoQuest"
     },
     {
-        imageSrc: "/pictures/Bike Ride.jpg",
+        imageSrc: "/pictures/Bike_Ride.jpg",
         title: "Nomadic Rider",
         eventDuration: "14 Days/ 13 Nights",
         description: "Step into the heart of the Himalayas with our Nomadic Rider Tour Package, a unique biking adventure designed for free spirits and thrill-seekers. Ride across rugged terrains, remote villages, high mountain passes, and culturally rich valleys as you explore the untouched beauty of Bhutan. This tour is perfect for those who crave the open road, authentic encounters, and unforgettable moments.",
         itinearyTextFile: "NomadicRider"
     },
     {
-        imageSrc: "/pictures/Bike and barshong.jpg",
+        imageSrc: "/pictures/Bike_and_barshong.jpg",
         title: "Heritage Ride",
         eventDuration: "13 Days/ 12 Nights ",
         description: "Embark on a journey through Heritage Ride Package. This curated tour takes you across Bhutan’s ancient majestic dzongs (fortresses), centuries-old monasteries, and traditional villages, all from the seat of your motorcycle. Ride through scenic valleys and winding mountain roads as you explore the deep cultural roots and spiritual heritage of the Land of the Thunder Dragon. Perfect for riders who want both adventure and authentic cultural immersion.",
