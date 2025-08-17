@@ -89,7 +89,7 @@ export const bhutanFestivalTours: ITourPackage[]=[
         itinearyTextFile: "ParoFestivalTour"
     },
     {
-        imageSrc: "/pictures/Punakha Dzong.jpg",
+        imageSrc: "/pictures/Punakha_Dzong.jpg",
         title: "Punakha Festival Tour",
         eventDuration: "9 Days/ 8 Nights",
         description: "Punakha, the former capital of Bhutan, hosts two significant annual festivals: Punakha Drubchen and Punakha Tshechu. Both the Drubchen and Tshechu festivals are celebrated at the majestic Punakha Dzong, also known as the Palace of Great Happiness. The festivals offers visitors a profound insight into Bhutanese culture, history, and spirituality.",
