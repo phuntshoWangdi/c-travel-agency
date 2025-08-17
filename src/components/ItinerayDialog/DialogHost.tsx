@@ -4,7 +4,7 @@ import { useFullScreenDialog } from "./dialog-context";
 import { tourItinenariesMdx } from "@/data/tourPackages";
 
 
-export default function DialogHost() {
+const DialogHost: React.FC = () => {
     const { open, closeDialog, payload } = useFullScreenDialog();
     const TourItinenary = tourItinenariesMdx[payload?.fileName ?? ""]
     return (
@@ -22,3 +22,5 @@ export default function DialogHost() {
         </Dialog>
     );
 }
+
+export default DialogHost;

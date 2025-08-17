@@ -144,7 +144,7 @@ export const trekkingTours: ITourPackage[]=[
 
 export const bikingTours: ITourPackage[] = [
     {
-        imageSrc: "/pictures/Bike_and_barshong_2.jpg",
+        imageSrc: "/pictures/bike_2.jpg",
         title: "Moto Wonderer",
         eventDuration: "8 Days/ 7 Nights ",
         description: "Embark on an unforgettable journey with the Moto Wonderer Biking Tour Package, designed for riders who seek adventure, scenic landscapes, and the thrill of the open road. Whether you're navigating mountain passes or exploring hidden valleys, this tour offers an immersive experience for biking enthusiasts.",
@@ -203,7 +203,7 @@ export const specialTours: ITourPackage[] = [
         itinearyTextFile: ""
     },
     {
-        imageSrc: "/pictures/Airport view.jpg",
+        imageSrc: "/pictures/Airport_view.jpg",
         title: "Photography Touring",
         eventDuration: "-",
         description: "Discover Bhutan through the lens with our curated Photography Tour, guided by Pema Dorji, a renowned Bhutanese photographer with over a decade of experience. Highly sought after by international travelers, Pema is known for his deep understanding of Bhutan’s landscapes, culture, and light, ensuring you capture truly breathtaking shots.",
