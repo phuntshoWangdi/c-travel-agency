@@ -28,7 +28,7 @@ export default function Carousel() {
                         <Image
                             src={item.image}
                             alt={item.title}
-                            layout="fill"
+                            fill
                             objectFit="cover"
                             priority
                         />
