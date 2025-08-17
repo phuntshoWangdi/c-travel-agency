@@ -151,7 +151,7 @@ export const bikingTours: ITourPackage[] = [
         itinearyTextFile: "MotoWonderer"
     },
     {
-        imageSrc: "/pictures/Bike_1.jpg.jpg",
+        imageSrc: "/pictures/Bike_1.jpg",
         title: "Moto Quest",
         eventDuration: "10 Days/ 9 Nights",
         description: "Discover the spirit of adventure with our Moto Quest Tour package. Ride through breathtaking Himalayan landscapes, ancient monasteries, lush valleys, and winding mountain passes. This tour is crafted for passionate riders seeking a perfect blend of thrill, culture, and natural beauty.Join us on two wheels and experience Bhutan like never before.",
