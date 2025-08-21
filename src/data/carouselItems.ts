@@ -17,8 +17,8 @@ export const carouselItems: ICarouselItem[] = [
     },
     {
       id: 3,
-      title: "Himalayan Horizons Adventures",
-      description: "Your travel guide to Bhutan, Book Now!",
+      title: "Book your journey today with Himalayan Horizons Adventures.",
+      description: "Your trusted travel guide to Bhutan.",
       image: "/pictures/Gangtey Town view edited.JPG",
       color: "from-orange-500 to-red-500"
     }
