@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import * as DialogPrimitive from "@radix-ui/react-dialog"
-import { X } from "lucide-react"
+import {ChevronLeft } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
@@ -44,13 +44,13 @@ const DialogContent = React.forwardRef<
       {...props}
     >
       {children}
-      <DialogPrimitive.Close className="absolute top-2 left-1/2 flex items-center gap-2 rounded-sm px-2 
+      <DialogPrimitive.Close className="absolute top-2 left-5 flex items-center gap-2 rounded-sm px-2 
              opacity-70 ring-offset-background transition-opacity hover:opacity-100 
              focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 
              disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground"
       >
-        <X className="h-4 w-4" />
-        <span>Close</span>
+        <ChevronLeft className="h-4 w-4" />
+        <span>Back</span>
       </DialogPrimitive.Close>
     </DialogPrimitive.Content>
   </DialogPortal>
